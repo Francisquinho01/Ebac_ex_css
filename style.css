@@ -1,0 +1,132 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+header li{
+   display: inline;
+ }
+ 
+ .B{
+    color: cornflowerblue;
+ }
+ 
+ header h1{
+  
+    color: forestgreen;
+ }
+.cont{
+   width: 1366px;
+   margin: 0 auto;
+}
+
+
+.cont1 img{
+
+   height: 400px;
+flex-wrap: wrap;
+   justify-content: space-between;
+   
+   
+}
+.cont1{
+  
+   align-items: center;
+   width: 100%;
+}
+.cont2 img{
+
+   height: 400px;
+flex-wrap: wrap;
+   justify-content: space-between;
+   
+   
+}
+.cont2{
+  
+   align-items: center;
+   width: 100%;
+}
+header{
+   background-color: aquamarine;
+}
+h1{
+   background-color: aliceblue;
+}
+.cont1{
+  background-color: aquamarine;
+}
+body{
+   background-color: coral;
+}
+.Esporte{
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+}
+.Esporte img{
+   height: 180px;
+}
+.Esporte article{
+
+   width: 30%;
+}
+.Culinaria{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.Culinaria .cont1, 
+.Culinaria .cont2 {
+    flex: 1 1 45%; /* Ajusta a largura dos itens, permitindo que eles se ajustem */
+    box-sizing: border-box; /* Inclui padding e bordas na largura total */
+}
+.Culinaria img{
+   height: 400px;
+}
+
+.Culinaria .cont1{
+   background-color: deeppink;
+}
+.Culinaria .cont2{
+   background-color: white;
+}
+.Educação{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.Educação .cont1, 
+.Educação .cont2 {
+    flex: 1 1 45%; 
+    box-sizing: border-box; 
+}
+.Educação{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.Educação .cont1{
+
+   background-color: yellow;
+}
+.Educação .cont2{
+
+   background-color:greenyellow;
+}
+.Economia{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.Economia article{
+
+   width: 30%;
+}
+.Economia img{
+
+   height: 180px;
+}
